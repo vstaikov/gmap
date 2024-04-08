@@ -1,0 +1,75 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+.sync-release-branch.state
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*/android/.project
+*/android/*.hprof
+
+# Visual Studio Code
+#
+.vscode/
+
+# node.js
+#
+node_modules
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# Test artifacts
+junit.xml
+cobertura.xml
+coverage/
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+Pods
+
+# team specific
+notes.txt
+.env
+.env.local
+
+# Jest cached files
+.jest
+
+# Eslint cached files
+.eslintcache
+
+# yalc local packages directory
+.yalc/
